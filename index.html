@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="weather_contain">
+
+        <div class="input_search">
+            <input type="text" id="input_city">
+            <img src="Images/search.png" id="search" onclick="weather_data()">
+        </div>
+        <div class="main_details">
+            <img src="Images/Clear.png" id="weather_icon">
+            <h1 id="weather_name">Clear</h1>
+            <h2 id="city_name">Chennai</h2>
+        </div>
+        <div class="first_row">
+        <div class="temp">
+            <img src="Images/temp.png" id="temp_icon">
+            <div class="details">
+            <h3 id="temp_value">23°</h3>
+            <h4 id="temp_name">Tempture</h4>
+            </div>
+        </div>
+        <div class="humidity">
+            <img src="Images/humidity.png" id="humidity">
+            <div class="details">
+            <h3 id="humidity_value">67%</h3>
+            <h4 id="humidity_name">Humidity</h4>
+            </div>
+        </div>
+        </div>
+        <div class="second_row">
+        <div class="pressure">
+            <img src="Images/pressure.png" id="pressure">
+            <div class="details">
+            <h3 id="pressure_value">1015 hPa</h3>
+            <h4 id="pressure_name">Pressure</h4>
+            </div>
+        </div>
+        <div class="wind">
+            <img src="Images/wind speed.png" id="wind_icon">
+            <div class="details">
+            <h3 id="wind_value">6.72 km/h</h3>
+            <h4 id="wind_name">WindSpeed</h4>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

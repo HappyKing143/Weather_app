@@ -1,0 +1,109 @@
+.body{
+    font-family: 'Playfair Display', serif;
+}
+
+.weather_contain{
+    width: 500px;
+    height: 650px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: bisque;
+    margin-left: 30%;
+}
+
+.input_search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.input_search input{
+    font-size: 18px;
+    border-radius: 20px;
+    filter: drop-shadow(2px 1px 1px green);
+    
+}
+
+.input_search img{
+    width: 25px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.main_details{
+
+    width: 220px;
+    height: 300px;
+    margin-left: 130px;
+    text-align: center;
+}
+
+.main_details img{
+    width: 120px;
+    height: 120px;
+    filter: drop-shadow(2px 1px 1px orange);
+}
+
+.first_row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.first_row .temp{
+    display: flex;
+    margin-left: 10px;
+   
+}
+.first_row .humidity{
+    display: flex; 
+    margin-left: 80px;
+}
+
+.first_row .temp img{
+    width: 100px;
+    height: 100px;
+}
+
+.first_row .humidity img{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.details{
+    border: 0px solid black;
+    width: 80px;
+    height: 100px;
+    padding-left: 10px;
+}
+
+
+.second_row{
+    display: flex;
+    align-items: center;
+}
+
+.second_row .pressure{
+    display: flex;
+    margin-left: 10px;
+   
+}
+.second_row .wind{
+    display: flex; 
+    margin-left: 80px;
+}
+
+.second_row .pressure img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.second_row .wind img{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    
+}
